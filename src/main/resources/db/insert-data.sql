@@ -1,0 +1,52 @@
+-- insert into user values(1, 'jude', 'jude@gmail.com')
+-- insert into user values(2, 'ehis', 'ehis@gmail.com')
+--
+-- insert into category values(01,'travel')
+-- insert into category values(02, 'loan')
+--
+-- insert into exepnse values(100, 'new york', '2020-09-23',1,01)
+-- insert into user values(200, 'toyota', '2020-06-12',2,02)
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+--
+-- -- SET FOREIGN_KEY_CHECKS = 0;
+-- --
+-- -- TRUNCATE TABLE user;
+-- -- TRUNCATE TABLE category;
+-- -- TRUNCATE TABLE expense;
+-- --
+-- --
+-- -- INSERT INTO user(`id`, `name`, `email`,)
+-- -- VALUES(1, 'jude', 'ehisjude@gmail.com',),
+-- --       (2, 'sam', 'sam@gmail.com',);
+-- --
+-- -- INSERT INTO category(`id`, `name`,)
+-- -- VALUES(01, 'travel',),
+-- --       (02, 'loan',);
+-- --
+-- -- INSERT INTO expense(`id`, `expensedate`, `description`)
+-- -- VALUES(100, '2020-08-23', 'new york',),
+-- --       (2, '2020-03-28', 'toyota',);
+-- --
+-- --
+-- -- SET FOREIGN_KEY_CHECKS = 1;
