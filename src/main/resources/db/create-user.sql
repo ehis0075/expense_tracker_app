@@ -1,7 +1,3 @@
-DROP USER IF EXISTS 'expensify'@'localhost';
-CREATE USER 'expensify'@'localhost' IDENTIFIED BY 'expensify';
-GRANT ALL PRIVILEGES ON expense_tracker.* TO 'expensify'@'localhost';
-FLUSH PRIVILEGES ;
-
-DROP DATABASE IF EXISTS expense_tracker;
-CREATE DATABASE expense_tracker;
+create database expense_tracker_db_1; -- Creates the new database
+create user 'expensify55'@'%' identified by 'expensify55'; -- Creates the user
+grant all on expense_tracker_db_1.* to 'expensify55'@'%'; -- Gives all privileges to the new user on the newly created database

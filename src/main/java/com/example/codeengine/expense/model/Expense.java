@@ -15,6 +15,7 @@ import java.time.Instant;
 public class Expense {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private Instant expensedate;
@@ -27,4 +28,44 @@ public class Expense {
     @ManyToOne(cascade = CascadeType.PERSIST)
     private User user;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Instant getExpensedate() {
+        return expensedate;
+    }
+
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public void setExpenseDate(Instant expensedate) {
+        this.expensedate = expensedate;
+    }
 }

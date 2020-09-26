@@ -16,14 +16,14 @@ import java.util.Set;
 public class User {
 
     @Id
-   //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
 
     private String email;
 
-    @OneToMany
-    private Set<Category> category;
+//    @OneToMany
+//    private Set<Category> category;
 }
 
